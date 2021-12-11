@@ -28,7 +28,7 @@ inquirer
     },
     {
       type: 'input',
-      name: 'credits',
+      name: 'contributing',
       message: "List any collaborators (If any, with links to their GitHub profiles), third-party assets (Include the creator's links) and links to any tutorials/resources used."
     },
     {
