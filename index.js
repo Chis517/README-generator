@@ -46,10 +46,15 @@ inquirer
       name: 'license',
       message: 'What license would you like to select?',
       choices: ['MIT', 'Apache_2.0', 'Boost_1.0', 'GPL_3.0']
+    },
+    {
+      type: 'input',
+      name: 'test',
+      message: 'Provide any tests and examples for your project'
     }
   ])
 
 // function to write README file
 .then(function(data) {
-  fs.writeFile('README.md', generateMarkdown(data), (err) => err ? console.log(err) : console.log("Your have created your README file successfully!"))
+  fs.writeFile('generatedREADME.md', generateMarkdown(data), (err) => err ? console.log(err) : console.log("You have created your README file successfully!"))
 })

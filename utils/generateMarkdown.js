@@ -6,11 +6,12 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents:
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Contributing](#Contributing)
-  * [License](#License)
-  * [Questions](#Questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [License](#license)
+  * [Test](#test)
+  * [Questions](#questions)
 
 ## Installation
 ${data.installation}
@@ -24,11 +25,13 @@ ${data.contributing}
 ## License
 ${data.license}
 
+## Test
+${data.test}
+
 ## Questions
 If you have any questions, you can reach me through the following.
    * GitHub: https://github.com/${data.github}
    * Email: ${data.email}
-
 `;
 }
 

@@ -1,20 +1,30 @@
-# test
+# weather-dashboard
 
-## Table of Contents:
+## Description
+This weather dashboard allows you to find the current and future weather forecast by city and adds that city to the search history!
 
-[Description](#Description)
+* The current day's forecast display today's date, an icon representing today's weather conditions, the temperature, humidity, wind speed and UV index
 
-[Installation](#Installation)
+* The future forecast displays the next 5 day forecast including each date, a weather icon representing each day's weather condition, temperature, wind speed and humidity
 
-## Descrption
-test
+* You can click on a city in the search history to display the current and future weather forecast of previously searched cities as well
 
-## Installation
-test
+## Credits
+* Open Weather Map - One Call API
+https://openweathermap.org/api/one-call-api
 
-## License
-[![License](https://img.shields.io/badge/License-GPL_3.0-blue.svg)](https://opensource.org/licenses/GPL_3.0)
+<br/>
 
-## GitHub Link:
-https://github.com/Chis517
+## URL Link and mock-up
+* [URL of deployed application]
+https://chis517.github.io/weather-dashboard/
 
+* [URL of repo]
+https://github.com/Chis517/weather-dashboard.git
+
+* [SSH of repo]
+git@github.com:Chis517/weather-dashboard.git
+
+* [GIF of deployed application]
+
+    ![image](weather-dashboard-mock-up.gif)
